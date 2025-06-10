@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2015",                  // به‌جای es5
+    "module": "esnext",
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"]
+    },
+    "lib": ["dom", "es2015"],            // اضافه شده: برای پشتیبانی از Promise و async/await
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
